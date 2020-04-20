@@ -13,9 +13,8 @@ div{
     display: inline-block;
 }
 
-.halfScale{
-    transform: scale(0.5);
-}
-.doubleScale{
-    transform: scale(2);
+.translated{
+    transform: translate(50px,30px);
+    background-color: teal;
+    border:3px solid rgba(81, 245, 89, 0.959);
 }
