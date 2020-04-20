@@ -1,3 +1,25 @@
 *{
     box-sizing: border-box;
 }
+.rotate{
+    display: inline-block;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 400px;
+    height: 350px;
+    background-color: aqua;
+    transform: rotate(75deg);
+}
+
+.rotate2{
+    
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 50px;
+    width: 400px;
+    height: 350px;
+    background-color: crimson;
+    transform: rotate(-75deg);
+}
