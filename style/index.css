@@ -13,8 +13,8 @@ div{
     display: inline-block;
 }
 
-.translated{
-    transform: translate(50px,30px);
+.skewed{
+    transform: skew(30deg,10deg);
     background-color: teal;
     border:3px solid rgba(81, 245, 89, 0.959);
 }
