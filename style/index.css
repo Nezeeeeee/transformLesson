@@ -1,25 +1,17 @@
 *{
     box-sizing: border-box;
 }
-.rotate{
+div{
+    background-color: #ccc;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    border: 1px solid royalblue;
     display: inline-block;
-    text-align: center;
-    margin-top: 60px;
-    margin-left: 50px;
-    width: 400px;
-    height: 350px;
-    background-color: aqua;
-    transform: rotate(75deg);
 }
 
-.rotate2{
-    
-    float: left;
-    text-align: center;
-    margin-top: 60px;
-    margin-right: 50px;
-    width: 400px;
-    height: 350px;
-    background-color: crimson;
-    transform: rotate(-75deg);
+.rotated{
+    transform: rotate(30deg);
 }
